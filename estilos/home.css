@@ -1,0 +1,79 @@
+/* Css, tios de selectores */
+
+/* Selector Global */
+*{
+    /* Propiedades */
+}
+/* Selector por etiqueta */
+
+header{
+    background-color: blueviolet;
+}
+/* Selector por herencia */
+ol li{
+    background-color: red;
+}
+ul li, p{
+    background-color: green;
+}
+
+/* Selector por clase */
+.primeraSeccion{
+    background-color: black;
+
+}
+/* Selector id */
+
+#text{
+    background-color: #9f9f9f;
+
+}
+/* Selector por atributo */
+
+p[title="segunda descripcion"]{
+    background-color: yellow;
+
+}
+
+a[href="./paginas/blog.html"]{
+    background-color: rgb(177, 15, 158);
+
+}
+
+/* Pseudo clase: Hover */
+a:hover
+{
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Propiedades de textos */
+
+p
+{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    line-height: 40px;
+    text-align: center;
+    text-transform:lowercase;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: Montserrat;
+    text-align: justify;
+}
+
+/* Propiedades del model box */
+
+header
+{
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    margin: 10px;
+    padding: 100px;
+}
